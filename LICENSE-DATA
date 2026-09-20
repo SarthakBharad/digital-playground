@@ -1,0 +1,41 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Sarthak D. Bharad
+
+WHAT THIS COVERS
+
+The datasets and written content of Sarthak's Digital Playground:
+
+  * the raw answer files under `data-analysis/data/`
+  * the result tables and figures under `data-analysis/outputs/`
+  * the CSV files under `public/data/`
+  * the questions, findings, methodology notes and captions in
+    `src/content/weeks/`
+
+The source code in this repository is licensed separately under the MIT
+licence — see LICENSE.
+
+WHAT YOU MAY DO
+
+You are free to share (copy and redistribute in any medium or format) and to
+adapt (remix, transform and build upon) this material for any purpose, even
+commercially, as long as you give appropriate credit, link to this licence,
+and indicate if changes were made.
+
+Suggested attribution:
+
+  Data from "Sarthak's Digital Playground" by Sarthak D. Bharad,
+  licensed under CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+
+FULL LICENCE TEXT
+
+  Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+  Full legal code:        https://creativecommons.org/licenses/by/4.0/legalcode
+
+NOTE ON THE ANSWERS
+
+Each week's raw data comes from public replies to a question posted on X.
+It is published here so the analysis can be checked and reproduced. Handles
+are kept only where they are needed to tell replies apart; no private
+information is collected, and anyone who asks to have their reply removed
+will have it removed from the files and the published results.

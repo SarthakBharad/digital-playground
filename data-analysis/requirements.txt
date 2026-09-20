@@ -1,0 +1,8 @@
+# Analysis stack for the weekly questions.
+# Install into the virtual environment:  pip install -r requirements.txt
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+odfpy>=1.4          # lets pandas read LibreOffice .ods files directly
+jupyter>=1.0
+ipykernel>=6.29

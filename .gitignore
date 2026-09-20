@@ -1,0 +1,99 @@
+# ---------------------------------------------------------------------------
+# Sarthak's Digital Playground — one repo, two halves:
+#   the Next.js site (src/, public/)  +  the notebooks (data-analysis/)
+# ---------------------------------------------------------------------------
+
+# --- dependencies ----------------------------------------------------------
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# --- Next.js build output --------------------------------------------------
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# --- hosting / tooling caches ----------------------------------------------
+.vercel/
+.turbo/
+.eslintcache
+.cache/
+
+# --- environment variables (never commit secrets) --------------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# the template stays in the repo
+!.env.example
+
+# --- logs ------------------------------------------------------------------
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# --- Python / Jupyter (data-analysis/) -------------------------------------
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter runtime leftovers
+.jupyter/
+*.ipynb~
+
+# --- spreadsheets & scratch data -------------------------------------------
+# LibreOffice / Excel lock files created while a sheet is open
+.~lock.*#
+~$*.xls*
+~$*.ods
+
+# Scratch work that shouldn't reach the repo. The real data does:
+#   data-analysis/data/**        raw answers, committed
+#   data-analysis/outputs/**     results + figures, committed
+#   public/data/**               what the site reads, committed
+data-analysis/**/scratch/
+data-analysis/**/*_scratch.*
+data-analysis/**/tmp/
+*.bak
+
+# --- editors / OS ----------------------------------------------------------
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# --- agent scratch files ---------------------------------------------------
+# Re-created by `next dev`; keep them out unless you want them versioned.
+CLAUDE.md
+AGENTS.md
