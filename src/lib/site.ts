@@ -8,11 +8,11 @@
 export const site = {
   name: "Sarthak's Digital Playground",
   shortName: "Digital Playground",
-  title: "Sarthak's Digital Playground — one question a week, answered with data",
+  title: "Sarthak's Digital Playground - one question a week, answered with data",
   description:
-    "A weekly web-dev and data-analysis practice log. Sarthak asks one question on X, analyses the answers in Jupyter, and publishes the results here as interactive analytics — with the CSVs on GitHub and the raw data on Kaggle.",
+    "A weekly web-dev and data-analysis practice log. Sarthak asks one question on X, analyses the answers in Jupyter, and publishes the results here as interactive analytics",
   /** Change to the real domain once deployed. Used for canonical URLs + sitemap. */
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://sarthaks-digital-playground.vercel.app",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://sarthaks-digital-playground.vercel.app/",
   locale: "en_GB",
   author: {
     name: "Sarthak D. Bharad",
