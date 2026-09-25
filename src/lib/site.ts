@@ -23,14 +23,14 @@ export const site = {
   /** Where the analytics CSVs and the source data live. */
   data: {
     // TODO: point at the new analytics repo (the one holding the notebook CSVs)
-    github: "https://github.com/SarthakBharad/digital-playground-analytics",
+    github: "https://github.com/SarthakBharad/digital-playground/tree/main/data-analysis",
     // TODO: point at your Kaggle profile or a collection of the weekly datasets
     kaggle: "https://www.kaggle.com/sarthakbharad",
   },
   socials: {
     github: "https://github.com/SarthakBharad",
     x: "https://x.com/maybesarthak",
-    portfolio: "https://sarthakbharad.vercel.app",
+    portfolio: "https://portfolio-sarthak-bharad.vercel.app/",
     email: "mailto:sarthakbharad3105@gmail.com",
   },
 } as const;
